@@ -1,0 +1,11 @@
+var numberOfKids = 3;
+
+var partnerName = Jane Doe;
+
+var location = Australia;
+
+var jobTitle = Banker;
+
+var fortune = 'You will be a' + jobTitle + 'in' + location + ', and married to ' + partnerName + 'with ' + numberOfKids + 'kids.';
+
+console.log(fortune);
