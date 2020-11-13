@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
 <body>
-var numberOfKids = 3;
+function tellFortune(jobTitle, location, partner, numKids) {
+    var future = 'You will be a ' + jobTitle + ' in ' + location + ' and married to ' +
+   partner + ' ' + ' with ' + numKids + ' kids.';
+    console.log(future);
+}
 
-var partnerName = Jane Doe;
-
-var location = Australia;
-
-var jobTitle = Banker;
-
-var fortune = 'You will be a' + jobTitle + 'in' + location + ', and married to ' + partnerName + 'with ' + numberOfKids + 'kids.';
-
-console.log(fortune);
+tellFortune('bball player', 'spain', 'Shaq', 3);
+tellFortune('stunt double', 'Japan', 'Ryan Gosling', 3000);
+tellFortune('Elvis impersonator', 'Russia', 'The Oatmeal', 0);
   </body>
 </html>
