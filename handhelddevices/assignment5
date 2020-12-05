@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 05.2</title>
+  <link rel="stylesheet" href="assignment5.css">
+</head>
+
+<body>
+  <header>
+   <div class="topleft">Locations</div>
+    <div class="topright">Online Tools</div>
+  
+  </header>
+  <main></main>
+  <nav>Dallas College eConnect
+  <div class="right">FAQ<br>Contact Us</div></nav>
+  <section>
+   <p>Future Student Menu</p>
+  <p>Current Credit Student Menu</p>
+  <p>Continuing Education/Workforce Training Student Menu</p>
+  <p>Faculty Menu</p>
+  <p>Employee Menu</p>
+  <p>Retiree Menu</p>
+  <p>Retention Alert</p>
+
+  
+  </section>
+  <footer>Email Us
+  <div class="bottomright">Phone<br>214-378-1500</div>
+  </footer>
+</body>
+</html>
