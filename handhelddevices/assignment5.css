@@ -1,0 +1,45 @@
+body {
+  margin: 10 auto;
+  
+}
+header {
+  background-color: #00FFFF;
+  width: 100%;
+  height: 10vh;
+}
+.topright{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+.topleft{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+nav{
+ background-color: #E6E6FA;
+  width: 100%;
+  height:15vh;
+}
+.right{
+position: absolute;
+right: 16px;
+}
+section{
+  background-color: #446FF4;
+  width: 100%;
+  height: 60vh;
+  text-align: center;
+}
+
+footer{
+  background-color: #00FFFF;
+  width: 100%;
+  height: 15vh;
+}
+.bottomright{
+position: absolute;
+right: 16px;
+}
