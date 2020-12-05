@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <meta charset="UTF-8">
   <title>Assignment 05.2</title>
   <link rel="stylesheet" href="assignment5.css">
@@ -27,7 +29,12 @@
   
   </section>
   <footer>Email Us
-  <div class="bottomright">Phone<br>214-378-1500</div>
+  <div class="bottomright"><form action="/action_page.php">
+  <label for="phone">Enter a phone number to get back to you:</label><br>
+  <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+  <small>Format: 123-45-678</small>
+  <input type="submit">
+</form></div>
   </footer>
 </body>
 </html>
