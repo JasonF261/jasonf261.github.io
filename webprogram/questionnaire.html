@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <title>Questionnaire</title>
+  
+  
+  
+  </head>
+ 
+  
+  <body>
+   <div>
+    Name: <input type="text" id="Name">
+    <br>
+    Age: <input type="text" id="Age">
+    <br>
+    Email: <input type="text" id="Email">
+    <p> When Done Please Press The Button Below</p>
+    
+    <button onclick ="myFunction()" type="submit">Information Provided</button>
+    <p id="demo"></p>
+    <script>
+
+     function myFunction() {
+      var Name = document.getElementById("Name").value;
+      var Age = document.getElementById("Age").value;
+      var Email = document.getElementById("Email").value;
+      var info = 'Thank you for your information! You Supplied This Information Your Name Is' +Name+ 'Your Age Is' +Age+ 'Your Email Is' +Email'.';
+      document.getElementById("demo").innerHTML = info;
+    }
+
+  </script> 
+     </div>
+  </body>
+</html>
+    
