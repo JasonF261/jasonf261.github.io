@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
 <head>
-  <meta charset="UTF-8">
   <title>Questionnaire</title>
+   <meta charset="UTF-8">
   </head> 
   <body>
    <div>
-    Name: <input type="text" id="name">
-    <br>
-    Age: <input type="text" id="age">
-    <br>
-    Email: <input type="text" id="email">
-    <p> When Done Please Press The Button Below</p>
+    Name: <input type="text" id="name1">
+    Age: <input type="text" id="age1">
+    Email: <input type="text" id="email1">
+    
+     <p> When Done Please Press The Button Below</p>
     
     <button onclick ="myFunction()" type="submit">Information Provided</button>
     
@@ -20,10 +19,10 @@
      <script>
 
      function myFunction() {
-      var name = document.getElementById("Name").value;
-      var age = document.getElementById("Age").value;
-      var email = document.getElementById("Email").value;
-      var info = 'Thank you for your information! You Supplied This Information Your Name Is' +Name+ 'Your Age Is' +Age+ 'Your Email Is' +Email+'.';
+      var name1 = document.getElementById("name1").value;
+      var age1 = document.getElementById("age1").value;
+      var email1 = document.getElementById("email1").value;
+      var info = 'Thank you for your information! You Supplied This Information Your Name Is' +name1+ 'Your Age Is' +age1+ 'Your Email Is' +email1+'.';
       document.getElementById("demo").innerHTML = info;
     }
 
@@ -31,4 +30,3 @@
      </div>
   </body>
 </html>
-    
