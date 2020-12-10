@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Canvas Sample</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="canvasStyles.css" media="screen">
+</head>
+
+<body>
+  <div id="mainDiv">
+    <header>
+      <h3>A Sample Canvas</h3>
+    </header>
+    
+    <section>
+      <h4>Here is the first canvas tag:</h4>
+            <canvas id="myCanvas" width="300" height="300" style="border:10px solid #000000;">
+
+     
+    </section>
+    
+    <br><br>
+    <footer>
+      © 2020 Web Program
+    </footer>
+  </div>
+  
+  <script>
+    //red box
+    var c = document.getElementById('myCanvas');
+    var ctx = c.getContext("2d");
+    ctx.fillStyle = "#FF0000";
+    ctx.fillRect(75, 0, 225, 225);
+    
+    //blue box
+    ctx.fillStyle = "#446FF4";
+    ctx.fillRect(0, 0, 70, 150);
+    
+    //green box
+     ctx.fillStyle = "#2ECC71";
+    ctx.fillRect(0, 225, 70, 40);
+    
+    // yellow box
+    ctx.fillStyle = "#F0EA2A";
+    ctx.fillRect(75, 260, 200, 40);
+    
+    //black box
+    ctx.fillStyle = "#17202A";
+    ctx.fillRect(275, 225, 25, 40);
+   //lines
+   ctx.beginPath();
+ctx.moveTo(75, 0);
+ctx.lineTo(75, 225);
+ctx.lineTo(300, 225);
+ctx.lineWidth = 10;
+ctx.strokeStyle = "black";
+ctx.stroke(); 
+
+
+ctx.beginPath();
+ctx.moveTo(75, 300);
+ctx.lineTo(75, 225);
+ctx.lineTo(0, 225);
+ctx.lineWidth = 10;
+ctx.strokeStyle = "black";
+ctx.stroke(); 
+
+ctx.beginPath();
+ctx.moveTo(275, 300);
+ctx.lineTo(275, 225);
+ctx.lineWidth = 10;
+ctx.strokeStyle = "black";
+ctx.stroke(); 
+  
+ctx.beginPath();
+ctx.moveTo(0, 265);
+ctx.lineTo(300, 265);
+ctx.lineWidth = 10;
+ctx.strokeStyle = "black";
+ctx.stroke();     
+    
+ctx.beginPath();
+ctx.moveTo(0, 150);
+ctx.lineTo(70, 150);
+ctx.lineWidth = 10;
+ctx.strokeStyle = "black";
+ctx.stroke();         
+    
+    
+    
+    
+    </script>
+
+</body>
+</html>
